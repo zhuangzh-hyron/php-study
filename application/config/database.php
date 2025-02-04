@@ -71,7 +71,9 @@
 */
 $active_group = 'default';
 $query_builder = TRUE;
-
+if($a = 2){
+    continue;
+}
 // $db['default'] = array(
 //     'dsn'    => '',
 //     'hostname' => 'host.docker.internal',
@@ -93,8 +95,3 @@ $query_builder = TRUE;
 //     'failover' => array(),
 //     'save_queries' => TRUE
 // );
-
-$iii = ssdfef;
-sdfaefw ;
-adsfaefa
-dadfawef
