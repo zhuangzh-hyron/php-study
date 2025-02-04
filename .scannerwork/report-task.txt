@@ -1,6 +1,6 @@
-projectKey=CI3
+projectKey=vsci
 serverUrl=http://localhost:9000
 serverVersion=25.1.0.102122
-dashboardUrl=http://localhost:9000/dashboard?id=CI3
-ceTaskId=4e438bf0-7dd0-4c23-9614-3444d026f2ce
-ceTaskUrl=http://localhost:9000/api/ce/task?id=4e438bf0-7dd0-4c23-9614-3444d026f2ce
+dashboardUrl=http://localhost:9000/dashboard?id=vsci
+ceTaskId=ef13ce4c-14f1-4eab-8282-eb049d0eb41b
+ceTaskUrl=http://localhost:9000/api/ce/task?id=ef13ce4c-14f1-4eab-8282-eb049d0eb41b
