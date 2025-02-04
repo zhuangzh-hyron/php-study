@@ -2,5 +2,5 @@ projectKey=CI3
 serverUrl=http://localhost:9000
 serverVersion=25.1.0.102122
 dashboardUrl=http://localhost:9000/dashboard?id=CI3
-ceTaskId=476153ff-e55d-4387-ae3c-159b984501dc
-ceTaskUrl=http://localhost:9000/api/ce/task?id=476153ff-e55d-4387-ae3c-159b984501dc
+ceTaskId=e8d5b4b0-9b81-43f1-9d77-adfe36c75216
+ceTaskUrl=http://localhost:9000/api/ce/task?id=e8d5b4b0-9b81-43f1-9d77-adfe36c75216
