@@ -20,10 +20,10 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->database();
+		// $this->load->database();
 		$this->load->view('welcome_message');
-		$query = $this->db->query('SELECT id FROM user');
-		$i = $query->result();
-		$ii =1;
+		// $query = $this->db->query('SELECT id FROM user');
+		// $i = $query->result();
+		// $ii =1;
 	}
 }
