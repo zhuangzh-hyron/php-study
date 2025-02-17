@@ -71,27 +71,25 @@
 */
 $active_group = 'default';
 $query_builder = TRUE;
-if($a = 2){
-    continue;
-}
-// $db['default'] = array(
-//     'dsn'    => '',
-//     'hostname' => 'host.docker.internal',
-//     'username' => 'tpdszzh',
-//     'password' => 'tpdszzh',
-//     'database' => 'ci',
-//     'dbdriver' => 'mysqli',
-//     'dbprefix' => '',
-//     'pconnect' => FALSE,
-//     'db_debug' => (ENVIRONMENT !== 'production'),
-//     'cache_on' => FALSE,
-//     'cachedir' => '',
-//     'char_set' => 'utf8mb4',
-//     'dbcollat' => 'utf8_general_ci',
-//     'swap_pre' => '',
-//     'encrypt' => FALSE,
-//     'compress' => FALSE,
-//     'stricton' => FALSE,
-//     'failover' => array(),
-//     'save_queries' => TRUE
-// );
+
+$db['default'] = array(
+    'dsn'    => '',
+    'hostname' => 'host.docker.internal',
+    'username' => 'root',
+    'password' => 'root',
+    'database' => 'my_dev',
+    'dbdriver' => 'mysqli',
+    'dbprefix' => '',
+    'pconnect' => FALSE,
+    'db_debug' => (ENVIRONMENT !== 'production'),
+    'cache_on' => FALSE,
+    'cachedir' => '',
+    'char_set' => 'utf8mb4',
+    'dbcollat' => 'utf8_general_ci',
+    'swap_pre' => '',
+    'encrypt' => FALSE,
+    'compress' => FALSE,
+    'stricton' => FALSE,
+    'failover' => array(),
+    'save_queries' => TRUE
+);
