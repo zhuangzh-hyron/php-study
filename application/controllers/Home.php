@@ -19,16 +19,28 @@ class Home extends CI_Controller {
 	 * @see https://codeigniter.com/userguide3/general/urls.html
 	 */
 	private $role;
-	function __construct()
-	{
-		parent::__construct();
-	}
+	// function __construct()
+	// {
+	// 	// parent::__construct();
+	// }
 	public function index()
 	{
+		$this->load->helper('form');
 		if(1==1){
 			$this->signUpPage();
 		}else{
-			$this->load->view('welcome_message');
+			$data1 =[
+				'da' => "111",
+				'2' => "222",
+				'3' => "333",
+				'ggg' => "444",
+				'reshs' => "555",
+				'rgr' => "666",
+				'f' => "777",
+				'n' => "888",
+				'9' => "999"
+			];
+			$this->load->view('welcome/welcome_message',$data1);
 		}
 	}
 	public function login()
@@ -47,7 +59,7 @@ class Home extends CI_Controller {
 		if($post['register']=='true'){
 			$register_data['username'] = $post['username'];
 			$register_data['password'] = $post['password'];
-			$this->User_m->register($register_data);
+			$this->Model->User_m->register($register_data);
 		}else{
 			$view_data = [
 				'msg' => '无法注册'

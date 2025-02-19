@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>注册</title>
-    <?php $this->load->helper('form');?>
 </head>
 <body>
     <h2>用户注册</h2>

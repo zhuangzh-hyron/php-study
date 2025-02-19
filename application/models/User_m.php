@@ -7,7 +7,6 @@ class User_m extends CI_Model{
     }
 
     public function register($data){
-        $data = 1;
         $this->db->insert($this->table,$data);
     }
 }
